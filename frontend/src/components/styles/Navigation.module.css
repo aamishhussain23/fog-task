@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.tabs {
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+  border-bottom: 2px solid var(--neutral-border);
+  box-shadow: 0 30px 40px rgba(255, 5, 5, 0.1);
+}
+
+.tabs p {
+  padding: 0.25rem;
+  font-weight: 500;
+  color: var(--primary);
+  letter-spacing: 1px;
+}
+
+p.selected {
+  border-bottom: 1px solid white;
+  font-weight: 700;
+  color: white;
+}
+
+.group {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  /* border: 2px solid; */
+}
+
+.group .level {
+  /* border: 2px solid red; */
+  /* width: 4rem; */
+  /* height: 4rem; */
+}
+
+.group .level img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.4, 1.5);
+  margin-top: 0.5rem;
+}
+
+.group .logo {
+  height: 1.75rem;
+  /* border: 2px solid; */
+}
+
+.group .logo img {
+  object-fit: contain;
+  height: 100%;
+}

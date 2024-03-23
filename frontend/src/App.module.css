@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  color: white;
+  position: relative;
+}
+
+.sidemenu {
+  border-right: 1px solid var(--neutral-border);
+  height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.container {
+  flex: 1;
+  padding: 1.5rem;
+  margin-right: 4rem;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.invite {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.emblem {
+  position: absolute;
+  top: 0;
+  left: 60%;
+  width: 300px;
+}
+
+.emblem img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}

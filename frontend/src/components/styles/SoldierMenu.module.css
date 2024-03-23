@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+}
+
+.info {
+  position: relative;
+  z-index: 0;
+  margin-top: 3rem;
+  margin-left: -1.5rem;
+}
+
+.details {
+  display: flex;
+  gap: 1rem;
+}
+
+.level img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.character {
+  position: relative;
+}
+
+.avatar {
+  height: 70vh;
+  position: relative;
+  z-index: 10;
+}
+
+.badge1,
+.badge2 {
+  position: absolute;
+  z-index: 20;
+}
+
+.badge1 {
+  bottom: 80px;
+  margin-left: -100px;
+}
+
+.badge2 {
+  bottom: 200px;
+}
+
+.badge1 img,
+.badge2 img,
+.avatar img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.rank {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rank .level {
+  border: 1px solid var(--neutral);
+  padding: 0.1rem 1.5rem;
+}
+
+.stats {
+  margin-top: 1rem;
+  display: flex;
+  /* border: 2px solid; */
+  gap: 3rem;
+}
+
+.table {
+  border-top: 1px solid var(--neutral-border);
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  /* width: 350px; */
+}
+
+.table .row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--neutral-border);
+  padding: 0.5rem;
+}
+
+.table .row:hover {
+  background-color: white;
+  color: black;
+}
+
+.ingame .scores {
+  display: flex;
+  gap: 2rem;
+}
+
+.ingame .scores > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.loadouts {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 230px));
+  grid-template-rows: repeat(2, minmax(auto, auto));
+  gap: 0.5rem;
+}
